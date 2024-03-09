@@ -24,8 +24,8 @@ body{
 }
 
 .card{
-  width: calc(25% -10px);
-  height: calc(33.333% - 10px);
+  width: calc(25%);
+  height: calc(25%);
   margin: 5px;
   position: relative;
   box-shadow: 1px 1px 1px rgba(0,0,0, .3)
@@ -38,5 +38,19 @@ body{
   padding: 20px;
   position: absolute;
   border-radius: 5px;
-  background: white;
+}
+
+.disabled{
+  animation-name: disable;
+  animation-duration: 2s;
+  animation-delay: -2s;
+}
+
+@keyframes disable{
+  from{
+    transform: scale(1)
+  }
+  to {
+    transform: scale(.5)
+  }
 }

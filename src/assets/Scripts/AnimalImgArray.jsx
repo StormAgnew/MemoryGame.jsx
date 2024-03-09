@@ -1,43 +1,49 @@
 import Aligator from '../Animals/Aligator.jpg'
-import Bear from '../Animals/Bear.jpg'
 import Bunny from '../Animals/Bunny.jpg'
-import Cow from '../Animals/Cow.jpg'
 import Fox from '../Animals/Fox.jpg'
-import Frog from '../Animals/Frog.jpg'
-import Monkey from '../Animals/Monkey.jpg'
 import Mouse from '../Animals/Mouse.jpg'
 import Owl from '../Animals/Owl.jpg'
-import Panda from '../Animals/Panda.jpg'
 import Pig from '../Animals/Pig.jpg'
-import Raccoon from '../Animals/Raccoon.jpg'
 
 
 
 const AnimalImgs = [
   {id: 1,
-  animalimg: Aligator},
+  animalimg: Aligator,
+  animal: "aligator"},
   {id: 2,
-    animalimg: Bear},
+    animalimg: Aligator,
+  animal: "aligator"},
   {id: 3,
-    animalimg:Bunny},
+    animalimg:Bunny,
+  animal: "bunny"},
   {id: 4,
-    animalimg: Cow},
+    animalimg: Bunny,
+  animal:"bunny"},
   {id: 5,
-    animalimg: Fox},
+    animalimg: Fox,
+  animal: "fox"},
   {id: 6,
-    animalimg: Frog},
+    animalimg: Fox,
+  animal: 'fox'},
   {id: 7,
-    animalimg: Monkey},
+    animalimg: Mouse,
+  animal: "mouse"},
   {id: 8,
-    animalimg: Mouse},
+    animalimg: Mouse,
+  animal: "mouse"},
   {id: 9,
-    animalimg: Owl},
+    animalimg: Owl,
+  animal: "owl"},
   {id: 10,
-    animalimg: Panda},
+    animalimg: Owl,
+  animal: "owl"},
   {id: 11,
-    animalimg: Pig},
+    animalimg: Pig,
+  animal: "pig"},
   {id: 12,
-    animalimg: Raccoon}
+    animalimg: Pig,
+  animal: "pig"}
 ]
 
 
